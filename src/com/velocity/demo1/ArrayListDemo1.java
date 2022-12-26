@@ -10,7 +10,9 @@ public class ArrayListDemo1 {
 		list.add("pinku");
 		list.add("dinku");
 		
-		list.forEach((n)-> System.out.println(n));
+		for(String s:list){
+			System.out.println(s);
+		}
 	}
 
 }
